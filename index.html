@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Intro to Webpack</title>
+  <meta name="author" content="Kent C. Dodds">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+  <style>
+    .center {
+      text-align: center;
+    }
+
+    .main-container {
+      max-width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+<div class="jumbotron center">
+  <h1>
+    Hello Webpack! <br/>
+    <small>A fantastic module bundler</small>
+  </h1>
+
+</div>
+<div class="main-container container">
+  <div>
+    <h2>Sweet Alert Buttons</h2>
+    <div class="center">
+      <div class="btn-group">
+        <button class="btn btn-info" data-alert>Info</button>
+        <button class="btn btn-danger" data-alert>Danger</button>
+        <button class="btn btn-success" data-alert>Success</button>
+        <button class="btn btn-primary" data-alert>Primary</button>
+        <button class="btn btn-default" data-alert>Default</button>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div>
+    <h2>Lame DOM Bindings!</h2>
+
+    <div class="form-group">
+      <label for="textarea1">Textarea 1</label>
+      <textarea name="textarea1" id="textarea1" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="textarea2">Textarea 2</label>
+      <textarea name="textarea2" id="textarea2" class="form-control"></textarea>
+    </div>
+  </div>
+</div>
+<script src="node_modules/lodash/index.js"></script>
+<script src="alert-buttons.js"></script>
+<script src="lame-dom-binding.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
