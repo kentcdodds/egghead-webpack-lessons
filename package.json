@@ -7,7 +7,11 @@
     "lodash": "^3.2.0",
     "bootstrap": "^3.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^4.3.0",
+    "babel-loader": "^4.0.0",
+    "webpack": "^1.5.3"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
